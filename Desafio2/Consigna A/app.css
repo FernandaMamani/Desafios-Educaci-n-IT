@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(37, 48, 48);
+}
+
+header {
+  font-family: Impact, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  width: auto;
+  color: rgb(42, 113, 115);
+  background-color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  text-align: justify;
+  color: white;
+  font-family: Arial, Gadget, sans-serif;
+  font-weight: lighter;
+}
+
+h2,
+h2::first-letter {
+  font-size: 1.3em;
+  color: wheat;
+  font-family: "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900;
+}
+/* h2::first-letter {
+  font-size: 1.3em;
+  color: wheat;
+  font-family:'Lucida Grande', sans-serif;
+  font-style: italic;
+  
+} */
+
+img {
+  border-style: groove;
+  border-width: 5px;
+  border-image: auto;
+  margin-left: 30px;
+}

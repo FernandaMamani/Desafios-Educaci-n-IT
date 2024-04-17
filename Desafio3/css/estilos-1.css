@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(222, 49, 100);
+}
+
+body {
+    font-family: Verdana,
+        Arial,
+        sans-serif;
+    color: aliceblue;
+}
+
+header {
+    margin: 2vw 10vw 2vw 10vw;
+    height: 5vw;
+    width: 80vw;
+    background-color: rgba(162, 40, 77, 0.813);
+    border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+section {
+    width: 80vw;
+    height: auto;
+    margin: 2vw 10vw 2vw 10vw;
+    padding: 2vw;
+    background-color: rgba(162, 40, 77, 0.813);
+    border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
+
+}
+
+.box-image {
+    background-color: aliceblue;
+    height: auto;
+    border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
+}
+
+img {
+    width: 76vw;
+    height: auto;
+    padding: 1vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+h4 {
+    color: rgba(162, 40, 77, 0.813);
+    font-size: 1.3vw;
+    text-align: right;
+    margin: 1.5vw 1vw 0.1vw 1vw;
+    padding: 1vw 0 0 0;
+
+}
+
+.separator1 {
+    border-top: dotted 0.2vw rgba(162, 40, 77, 0.813);
+    margin-bottom: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+p {
+    width: 76vw;
+    padding: 1vw;
+    color: black;
+    font-size: 1.5vw;
+
+}
+
+.div-btn {
+    height: 10vh;
+    margin: 0.5vw 0 0.5vw 0;
+    padding: 1vw;
+    text-align: center;
+
+}
+
+.link-btn {
+    background-color: #199319;
+    color: white;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
+}
+
+.link-btn:hover {
+    background-color: rgb(222, 49, 100);
+}
+
+footer {
+    width: 80vw;
+    height: 10vh;
+    margin: 2vw 10vw 2vw 10vw;
+    padding: 1.5vw;
+    border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
+    text-align: center;
+    background-color: palevioletred;
+}

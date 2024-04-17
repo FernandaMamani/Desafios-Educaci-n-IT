@@ -1,0 +1,239 @@
+/* PALETA DE COLORES
+https: //coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226
+#001219 ~Rich black
+#005F73 ~Midnight green
+#0A9396 ~Dark cyan
+#94D2BD ~Tiffany Blue
+#E9D8A6 ~Vanilla
+#EE9B00 ~Gamboge
+#CA6702 ~Alloy orange
+#BB3E03 ~Rust
+#AE2012 ~Rufous
+#9B2226 ~Auburn
+*/
+
+@font-face {
+    font-family:"Benguiat" ;
+    src: url("../Fonts/ITC_Benguiat_Std_Book_Condensed/ITC_Benguiat_Condensed_Bold.otf") format("opentype");
+    font-style: bold;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Black.ttf")format(truetype);
+    font-weight: 900;
+    font-style: bolder;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins/Poppins-Black.ttf")format(truetype);
+    font-weight: 900;
+    font-style: bolder;
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins/Poppins-Light.ttf")format(truetype);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf")format(truetype);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Bold.ttf") format(truetype);
+    font-weight: 700;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Poppins", sans-serif;
+    background-color: #081c15;
+    background-image: url(../images/Stranger\ Things.jpeg);
+    background-repeat:no-repeat;
+    background-position: 2% 2% 4% 4%;
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: 1.5em;
+}
+
+header {
+    margin-top: 5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: #9B2226;
+    text-shadow: 20px 15px 7px#001219;
+    -webkit-text-stroke: 0.2px white;
+    opacity: 1;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: "Benguiat";
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 900;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+}
+
+.muscle-style {
+font-size:0.6em ;
+}
+
+main {
+    margin-left: 5vw;
+    margin-right: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+
+form {
+    margin: 2vw;
+    text-align: center;
+    width: 40vw;
+}
+
+fieldset {
+
+    background-color:#001219 ;
+    opacity: 0.7;
+    border: 2px solid;
+    border-color: #AE2012;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 4vw;
+    padding: 4vw;
+}
+
+legend {
+    color:#E9D8A6;
+    padding: 0.5em;
+    background-color: #9B2226;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    border: 4vw;
+    border-color:#E9D8A6;
+    text-align: left;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight:500;
+    font-style: bold;
+}
+
+fieldset:focus-within {
+    background-color: #001219;
+    opacity: 0.9;
+}
+
+
+.label-block {
+    display: block;
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+    font-size: 1.3rem;
+    color :#E9D8A6
+}
+
+.font-style{
+    font-size: 1.3rem;
+    color: #E9D8A6;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=tel],
+select,
+textarea {
+    width: 75%;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #0A9396;
+    border: 1px solid #005F73;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    font-size: 1.5vw;
+}
+
+
+input[type=radio] {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.separator1 {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1.5vw;
+}
+
+.actividades2 {
+    margin-left: 1.2vw;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #E9D8A6;
+}
+
+textarea {
+    height: 10vw;
+}
+
+.condiciones-novedades {
+    text-align: left;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.condiciones-novedades div {
+    margin: 0.5vw;
+}
+
+input[type=submit],
+input[type=reset] {
+    color:white;
+    background-color: #AE2012;
+    opacity: 0.7;
+    border: 0.1vw solid #9B2226;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+
+    height: 4vw;
+    width: 10vw;
+    margin: 4vw;
+    font-size: 1.2vw;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color:#9B2226 ;
+    opacity: 0.9;
+    color: #001219;
+    font-weight: bold;
+    box-shadow: 0 0  0.4em #E9D8A6;
+}
+::placeholder{
+    color:#94D2BD;
+}
+
+.focus:focus {
+    background-color:#BB3E03;
+    color: white;
+    border-color: #081c15;
+}
+
+.separator1 {
+    border-top: dotted 1vw #BB3E03;
+}

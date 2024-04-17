@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Black.ttf")format(truetype);
+    font-weight: 900;
+    font-style: bolder;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fonts/Poppins/Poppins-Black.ttf)format(truetype);
+    font-weight: 900;
+    font-style: bolder;
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fonts/Poppins/Poppins-Light.ttf)format(truetype);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf)format(truetype);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Poppins", sans-serif;
+    background-color: #081c15;
+    font-size: 1.5em;
+}
+
+header {
+    margin-top: 5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 3em;
+    font-weight: 900;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+
+
+}
+
+.separator-top {
+    border-top: solid 1.5vw #2D6A4F;
+    border-right: solid 1.5vw transparent;
+    border-left: solid 1.5vw transparent;
+}
+
+.separator-bottom {
+    border-bottom: solid 1.5vw #2D6A4F;
+    border-right: solid 1.5vw transparent;
+    border-left: solid 1.5vw transparent;
+
+}
+
+
+main {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+fieldset {
+
+    background-color: #B7E4C7;
+    border: 2px solid;
+    border-color: #2D6A4F;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 4vw;
+    padding: 2vw;
+}
+
+legend {
+    color: white;
+    padding: 0.5em;
+    background-color: #2D6A4F;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    text-align: left;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: bold;
+}
+
+fieldset:focus-within {
+    background-color: #40916C;
+}
+
+
+.label-block {
+    display: block;
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=tel],
+select,
+textarea {
+    width: 75%;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #D8F3DC;
+    border: 1px solid #2D6A4F;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
+
+input[type=radio] {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.separator1 {
+width: 40%;
+margin: 0 auto;
+margin-bottom: 1.5vw;
+}
+
+.actividades2 {
+    text-align: left;
+}
+
+textarea {
+    height: 10vw;
+}
+
+.condiciones-novedades {
+    text-align: left;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: white;
+}
+
+.condiciones-novedades div {
+    margin: 0.5vw;
+}
+
+input[type=submit],
+input[type=reset] {
+    color: #B7E4C7;
+    background-color: #2D6A4F;
+    border: 0.1vw solid #B7E4C7;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height: 4vw;
+    width: 8vw;
+    margin: 4vw;
+    font-size: 1vw;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #B7E4C7;
+    color: #2D6A4F;
+}
+
+.focus:focus {
+    background-color: #2D6A4F;
+    color: white;
+    border-color: #081c15;
+}
+
+.separator1 {
+    border-top: dotted 1vw #2D6A4F;
+}

@@ -1,0 +1,3 @@
+<meta name="description" content="Bootcamp de Full Stack" />
+<meta name="keywords" content="bootcamp full stack html css javascript" />
+<meta name="author" content="María Fernanda Mamani" />

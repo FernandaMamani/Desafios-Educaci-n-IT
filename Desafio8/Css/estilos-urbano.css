@@ -1,0 +1,368 @@
+/* PALETA DE COLORES
+https: //coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a
+#000814 ~Rich black
+#001d3d ~Oxford Blue
+#003566 ~Yale Blue
+#ffc300 ~Mikado yellow
+#ffd60a ~Gold
+
+*/
+
+@font-face {
+    font-family: "PermanentMaker";
+    src: url("../Fonts/Permanent_Maker/PermanentMarker-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IndieFlower";
+    src: url("../Fonts/IndieFlower-Regular/IndieFlower-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Black.ttf")format("truetype");
+    font-weight: 900;
+    font-style: bolder;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins/Poppins-Black.ttf")format("truetype");
+    font-weight: 900;
+    font-style: bolder;
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins/Poppins-Light.ttf")format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf")format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IndieFlower", "Roboto", "Poppins", sans-serif;
+    background-image: linear-gradient(#003566, 20%, #000814);
+    font-size: 1.5em;
+}
+
+.body-section {
+    background-image: url("../images/gimnasio_con_G.png");
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 0.02vw;
+    margin-left: 40vw;
+    margin-right: 2vw;
+    color: #ffd60a;
+    text-shadow: 20px 15px 7px#001219;
+    -webkit-text-stroke: 0.8px #ffc300;
+    opacity: 1;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: "PermanentMaker";
+    font-size: 7vw;
+    font-weight: 900;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.02em;
+}
+
+.muscle-style {
+    font-size: 0.6em;
+}
+
+main {
+    margin-left: 45vw;
+    margin-right: 0.3vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+
+}
+
+form {
+    margin: 2vw;
+    text-align: center;
+    width: 40vw;
+}
+
+fieldset {
+
+    background-color: #000814;
+    opacity: 0.7;
+    border: 2px solid;
+    border-color: #000814;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 4vw;
+    padding: 4vw;
+}
+
+
+legend {
+    color: #ffd60a;
+    padding: 0.4em;
+
+    background-color: #001d3d;
+    border: 0.1vw solid;
+    border-color: #ffc300;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    text-align: center;
+    font-family: "IndieFlower";
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+
+fieldset:focus-within {
+    background-color: #001d3d;
+    opacity: 0.9;
+}
+
+
+.label-block {
+    display: block;
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+    font-size: 1.3rem;
+    color: #ffd60a
+}
+
+
+.font-style {
+    font-size: 1.3rem;
+    color: #ffd60a;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=tel],
+select,
+textarea {
+    width: 75%;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #003566;
+    border: 1px solid #003566;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    font-size: 1.5vw;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=number]:hover,
+input[type=tel]:hover,
+select:hover,
+textarea:hover {
+    box-shadow: 0 0 0.7em #ffd60a;
+}
+
+input[type=radio] {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.separator1 {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1.5vw;
+}
+
+.actividades2 {
+    margin-left: 1.2vw;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #ffd60a;
+}
+
+textarea {
+    height: 10vw;
+}
+
+.condiciones-novedades {
+    text-align: left;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: #ffc300;
+    font-size: 1.2rem;
+}
+
+.condiciones-novedades div {
+    margin: 0.5vw;
+}
+
+input[type=submit],
+input[type=reset] {
+    color: #ffc300;
+    background-color: #003566;
+    opacity: 0.7;
+    border: 0.2vw solid #001d3d;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+
+    height: 4vw;
+    width: 10vw;
+    margin: 4vw;
+    font-size: 1.2vw;
+}
+
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #003566;
+    opacity: 0.9;
+    color: #ffd60a;
+    font-weight: bold;
+    box-shadow: 0 0 0.7em #ffd60a;
+}
+
+::placeholder,
+.option-style {
+    color: #e5e5e5;
+}
+
+
+.focus:focus {
+    background-color: #ffd60a;
+    color: #001d3d;
+    border-color: #000814;
+}
+
+.separator1 {
+    border-top: double 1vw #ffc300;
+}
+
+
+/* Media query para Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .body-section {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .body-section {
+        background-position: left center;
+        background-size: 50% auto;
+
+    }
+
+    main {
+        width: 50%;
+        margin-left: auto;
+        margin-right: 1vw;
+
+    }
+
+}
+
+
+
+/* Media query para Celulares */
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .body-section {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .body-section {
+        background-position: left center;
+        background-size: 50% auto;
+
+    }
+
+    main {
+        width: 50%;
+        margin-left: auto;
+        margin-right: 2vw;
+
+    }
+}
+
+@media (max-width: 767px) {
+
+    .button-css {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        order: 1;
+
+    }
+
+    .body-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+
+    header {
+        width: 100%;
+        background: none;
+        order: 2;
+        align-items: center;
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        order: 3;
+        margin-top: 125vw;
+        margin-right: 40vw;
+        text-align: center center;
+
+    }
+
+    .background-image-section {
+
+        background-image: url('../images/gimnasio_con_G.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 200px;
+        width: 100%;
+        order: 2;
+
+    }
+
+    main {
+        width: 100%;
+        margin: 20px 0;
+        order: 4;
+    }
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}

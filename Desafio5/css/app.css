@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva,
+        Verdana,
+        sans-serif;
+}
+
+header {
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: auto;
+    height: 25vh;
+
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Lucida Sans Regular';
+    font-weight: lighter;
+    color: rgb(201, 81, 181);
+    text-align: center;
+    letter-spacing: 1vw;
+
+}
+
+.hoteles {
+    display: flex;
+    width: 98vw;
+    height: auto;
+}
+
+h2 {
+    font-family: Lucida Sans Unicode;
+    color: rgb(201, 81, 181);
+    padding: 0.5vw;
+    letter-spacing: 0.7vw;
+    margin-top: 2vw;
+}
+
+.texto {
+
+    padding: 0.5vw;
+    line-height: 1.5;
+    color: rgb(107, 132, 210);
+    font-family: Lucida Sans Regular;
+    font-size: 1em;
+}
+
+.image1,
+.image3 {
+    width: 30vw;
+    height: auto;
+    min-width: fit-content;
+    padding: 0.5vw;
+    float: right
+}
+
+.image2 {
+    width: 30vw;
+    height: auto;
+    min-width: fit-content;
+    padding: 0.5vw;
+    float: left;
+
+}
+
+
+.image4 {
+    margin: 0.6vw;
+    width: 97.5vw;
+
+}
