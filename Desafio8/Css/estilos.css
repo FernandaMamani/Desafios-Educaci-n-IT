@@ -146,9 +146,9 @@ input[type=radio] {
 }
 
 .separator1 {
-width: 40%;
-margin: 0 auto;
-margin-bottom: 1.5vw;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1.5vw;
 }
 
 .actividades2 {

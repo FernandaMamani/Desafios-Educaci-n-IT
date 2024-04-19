@@ -5,11 +5,11 @@ const btnOperator = document.querySelectorAll('operator');
 
 function calculator() {
     function sumar() {
-       return num1 + num2;
+        return num1 + num2;
     }
-   function restar() {
-       return num1 - num2;
-   }
+    function restar() {
+        return num1 - num2;
+    }
 
     function multiplicar() {
         return num1 * num2;

@@ -1,0 +1,5 @@
+
+$color-principal: #f06d06;
+$color-secundario: #d3d3d3;
+$color-hover: darken($color-principal, 10%); // Un poco más oscuro para el hover
+$color-active: lighten($color-principal, 10%); // Un poco más claro para el active

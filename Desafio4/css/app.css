@@ -1,69 +1,69 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-html, body {
+html,
+body {
     background-color: darkcyan;
-        width: 100%;
-        min-height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 header {
-  margin: 20px;
-  text-align: center;
+    margin: 20px;
+    text-align: center;
 }
 
 h1 {
-  font-size: 2.5em;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+    font-size: 2.5em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: yellow;
 }
 
 .galeria {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  padding: 1vw;
-  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 1vw;
+
 }
 
 .card {
-  /* Aca usar vW para las medidas */
+    /* Aca usar vW para las medidas */
 
-  width: auto;
-  margin: 0.5vw;
-  padding: 0.1vw;
+    width: auto;
+    margin: 0.5vw;
+    padding: 0.1vw;
 }
 
 .card-image {
 
-  /* usar porcentaje % para tamaños de width */
-  width: 100%;
-  height: auto;
+    /* usar porcentaje % para tamaños de width */
+    width: 100%;
+    height: auto;
 
-  border-style: solid;
-  border-color: white;
-  border-width: 0.5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5vw;
 }
 
 @media (max-width: 500px) {
-  .galeria {
-    flex-direction: column;
-    align-items: center;
-    padding: 4vw;
-  }
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw;
+    }
 
-  .card {
-    width: 100%;
-  }
+    .card {
+        width: 100%;
+    }
 
-  .card-image {
-    width: 100%;
-    height: auto;
-  }
+    .card-image {
+        width: 100%;
+        height: auto;
+    }
 }
-

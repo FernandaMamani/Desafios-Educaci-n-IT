@@ -1,0 +1,33 @@
+{
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "eslint.format.enable": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ],
+    "LiveSassCompile.settings.excludeList": [
+        "/FULLSTACK-08-2023-EIT/**",
+       "/proyecto-integrador/**",
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
