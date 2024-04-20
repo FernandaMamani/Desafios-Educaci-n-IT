@@ -3,25 +3,56 @@
 body {
     font-family: Arial, sans-serif;
     background-color: var.$color-secundario;
+    /* ..................................... */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Centra horizontalmente todo el contenido
+    justify-content: center; // Centra verticalmente todo el contenido
+    height: 100vh; // Ocupa toda la altura de la ventana
+
 }
 
+#cajas {
+
+    display: flex; // Usa flexbox para alinear los divs de los personajes
+    flex-wrap: wrap; // Permite que los divs se ajusten en varias filas según el ancho de la pantalla
+    justify-content: center; // Centra los divs de los personajes horizontalmente dentro de su contenedor
+    gap: 1vw; // Añade un pequeño espacio entre los divs
+    width: 80%; // Ancho del contenedor de los personajes
+}
+
+
 #cajas div {
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    height: auto;
     background-color: var.$color-principal;
-    margin: 10px;
-    display: inline-block;
+    margin: 0.3vw 0.3vw 0.3vw 0.3vw;
+    display: flex;
+
+    justify-content: center;
+   align-items: center;
+border-radius: 0.3vw 0.3vw 0.3vw 0.3vw;;
+}
+
+#imagenes {
+    width: 90%;
+    height: 90%;
+
+
 }
 
 .boton {
-    padding: 10px 20px;
+    padding: 1vw 1vw;
     background-color: var.$color-principal;
     color: white;
     text-align: center;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 5vw;
     transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 2vw;
 
     &:hover {
         background-color: var.$color-hover;

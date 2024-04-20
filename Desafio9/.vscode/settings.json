@@ -22,7 +22,9 @@
     ],
     "LiveSassCompile.settings.excludeList": [
         "/FULLSTACK-08-2023-EIT/**",
-       "/proyecto-integrador/**",
+        "/proyecto-integrador/**",
+        "/MI-CURSO-FULLSTACK/**",
+        "/Desafios-Educaci-n-IT/**",
     ],
     "[javascriptreact]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
